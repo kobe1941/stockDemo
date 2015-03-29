@@ -14,6 +14,8 @@
 		4F0DB1D41A3690B400204BD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB1D31A3690B400204BD1 /* Images.xcassets */; };
 		4F0DB1D71A3690B400204BD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB1D51A3690B400204BD1 /* LaunchScreen.xib */; };
 		4F0DB1E31A3690B500204BD1 /* HFDrawPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB1E21A3690B500204BD1 /* HFDrawPictureTests.m */; };
+		4F0DB1EE1A3690F800204BD1 /* HFTestDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB1ED1A3690F800204BD1 /* HFTestDrawView.m */; };
+		4FD0ACB31A3853040028C231 /* HFHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0ACB21A3853040028C231 /* HFHistogram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		4F0DB1DC1A3690B500204BD1 /* HFDrawPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFDrawPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0DB1E11A3690B500204BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0DB1E21A3690B500204BD1 /* HFDrawPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFDrawPictureTests.m; sourceTree = "<group>"; };
+		4F0DB1EC1A3690F800204BD1 /* HFTestDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTestDrawView.h; sourceTree = "<group>"; };
+		4F0DB1ED1A3690F800204BD1 /* HFTestDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTestDrawView.m; sourceTree = "<group>"; };
+		4FD0ACB11A3853040028C231 /* HFHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFHistogram.h; sourceTree = "<group>"; };
+		4FD0ACB21A3853040028C231 /* HFHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFHistogram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				4F0DB1D31A3690B400204BD1 /* Images.xcassets */,
 				4F0DB1D51A3690B400204BD1 /* LaunchScreen.xib */,
 				4F0DB1C61A3690B400204BD1 /* Supporting Files */,
+				4F0DB1EC1A3690F800204BD1 /* HFTestDrawView.h */,
+				4F0DB1ED1A3690F800204BD1 /* HFTestDrawView.m */,
+				4FD0ACB11A3853040028C231 /* HFHistogram.h */,
+				4FD0ACB21A3853040028C231 /* HFHistogram.m */,
 			);
 			path = HFDrawPicture;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				4F0DB1CF1A3690B400204BD1 /* ViewController.m in Sources */,
 				4F0DB1CC1A3690B400204BD1 /* AppDelegate.m in Sources */,
+				4FD0ACB31A3853040028C231 /* HFHistogram.m in Sources */,
+				4F0DB1EE1A3690F800204BD1 /* HFTestDrawView.m in Sources */,
 				4F0DB1C91A3690B400204BD1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				4F0DB1E81A3690B500204BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F0DB1E91A3690B500204BD1 /* Build configuration list for PBXNativeTarget "HFDrawPictureTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				4F0DB1EB1A3690B500204BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
